@@ -22,19 +22,28 @@ $('#bootstrapForm').submit(function (event) {
             // does not support it, so this is handled as a failure.
             alert('Form Submitted. Thanks.')
             // You can also redirect the user to a custom thank-you page:
-            // window.location = 'http://www.mydomain.com/thankyoupage.html'
+            // window.location = 'dogeo.html'
         }
     })
 })
 </script>
 
+    <style>
+        h2, legend {
+            font-size: 1.5rem;
+            font-family: Arial;
+        }
+        input {
+            font-size: 1rem;
+            color: blue;
+        }
+    </style>
+    
 <body>
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLSeIhqLtIspU6ZyVpBuxpFR0yL08cyGbhBFuqL5Jam65-z2QxQ/formResponse"
-      target="_self"
-      id="bootstrapForm"
-      method="POST">
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSeIhqLtIspU6ZyVpBuxpFR0yL08cyGbhBFuqL5Jam65-z2QxQ/formResponse" target="_self" id="bootstrapForm" method="POST">
     <fieldset>
-        <h2>InstalaGEOCODE<br><small>Preencha os campos abaixo ateh que o formulario esteja completo</small></h2>
+        <h2>InstalaGEOCODE<br>
+            <small>Preencha os campos abaixo ateh que o formulario esteja completo</small></h2>
     </fieldset>
 
 
